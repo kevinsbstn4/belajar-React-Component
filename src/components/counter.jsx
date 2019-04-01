@@ -5,9 +5,15 @@ class Counter extends Component {
     count: 0
     // tags: []
   };
-  handleIncrement() {
+
+  // constructor() {
+  //   super();
+  //   this.handleIncrement = this.handleIncrement.bind(this);
+  // }
+
+  handleIncrement = () => {
     console.log('Increment Clicked', this);
-  }
+  };
 
   // renderTags() {
   //   if (this.state.tags.length === 0) return <p>There are no tags !</p>;
