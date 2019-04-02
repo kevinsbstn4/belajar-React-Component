@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 export default class Counter extends Component {
   state = {
-    count: 0
+    value: this.props.value
   };
 
   handleIncrement = Product => {
