@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 export default class Counter extends Component {
   render() {
-    console.log(this.props);
+    console.log('Counter - Rendered');
     return (
       <div>
         <h4>{this.props.id}</h4>
